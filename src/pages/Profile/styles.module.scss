@@ -1,0 +1,29 @@
+.profilePage {
+  background-color: #fafafa;
+  width: 80%;
+  height: 92vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .avatarCircle {
+    background-color: #aaa;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+
+    img {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+  .returnDiv {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}

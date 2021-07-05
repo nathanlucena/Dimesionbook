@@ -1,0 +1,39 @@
+.homePage {
+  background-color: #fafafa;
+  display: flex;
+  padding: 2rem;
+  width: 80%;
+  height: 92vh;
+
+  .overflow {
+    overflow: auto;
+    padding-bottom: 2rem;
+
+    .cardDiv {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: initial;
+
+      .card {
+        display: flex;
+        width: 40rem;
+        height: 10rem;
+        padding: 2rem;
+      }
+    }
+  }
+
+  .errorDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.mainDiv {
+  display: flex;
+}

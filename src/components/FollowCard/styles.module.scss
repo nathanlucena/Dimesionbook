@@ -1,0 +1,43 @@
+.followCard {
+  background-color: #e6e6e6;
+  width: 100%;
+  display: flex;
+  border-top: 1px solid #63666a;
+  border-bottom: 1px solid #63666a;
+  margin: 0.1rem;
+
+  .linkDiv {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    width: 15vw;
+    height: 10%;
+
+    align-items: center;
+    .avatarCircle {
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      padding: 0.3rem;
+      img {
+        width: 100%;
+      }
+    }
+    h1 {
+      font-size: 22px;
+      width: 15vw;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      padding-left: 0.5rem;
+    }
+  }
+  .buttonDiv {
+    padding-top: 20px;
+    button {
+      height: 40px;
+    }
+  }
+}

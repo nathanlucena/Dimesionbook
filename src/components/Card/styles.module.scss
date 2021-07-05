@@ -1,0 +1,51 @@
+.card {
+  background-color: #e6e6e6;
+  border: 2px solid #000;
+  border-radius: 15px;
+  width: 70vw;
+  display: flex;
+  height: 8rem;
+  padding: 1rem;
+
+  .linkDiv {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    width: 80%;
+    height: 100%;
+
+    h1 {
+      font-size: 25px;
+      max-width: 15vw;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+      padding-right: 1rem;
+    }
+    .avatarCircle {
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+      img {
+        width: 100%;
+      }
+    }
+    .infos {
+      display: block;
+      padding-left: 1.5rem;
+      .infoSeparator {
+        display: flex;
+        align-items: baseline;
+      }
+    }
+  }
+
+  .buttonDiv {
+    padding-top: 20px;
+    button {
+      height: 50px;
+    }
+  }
+}
