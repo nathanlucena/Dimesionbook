@@ -1,46 +1,20 @@
-# Getting Started with Create React App
+# Dimessionbook
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Conheça o Dimessionbook um guia contetndo todos os personagens da série Rick and Morty, com o Dimessionbook você poderá dar uma olhada em algumas informações dos seus personagens favoritos.
 
-## Available Scripts
+## Inicando o projeto
 
-In the project directory, you can run:
+O Dimession book é um projeto react, logo para ser iniciado é necessario ter o node.js instalado em sua máquina, o Dimessionbook foi criado com o node.js na versão `15.12.0` do node.js então recomendo que a mesma ou uma versão superior.
 
-### `yarn start`
+[Clique aqui para fazer o download do Node](https://nodejs.org/en/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Com o node.js instalado você precisará fazer o donwload do projetot, seja baixando o projeto `.zip` pelo Github ou usand o comando `git clone https://github.com/nathanlucena/Dimesionbook.git` caso você tenha o git instalado em sua maquina.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Com o node.js instalado em sua maquina e com o download do projeto é necessario que você instale suas dependencias, para isso é preciso abrir a o projeto pelo terminal, com o terminal aberto é preciso executar o comando `npm install`. Depois que todas as dependencias estiverem instaladas é preciso que execute o comando `npm install` com isso o projeto será inicializado na na porta 3000 do localhost, é comum que ele seja aberto no seu navegador, caso isso não funcione é só abrir o caminho no navegador: [http://localhost:3000](http://localhost:3000).
 
-### `yarn test`
+## Funcionalidades
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- A Aplicação lhe oferece uma página para vizualizar uma lista de personagens
+- Com uma barra de pesquisa é possivel uma friltragem de personagens pelo nome
+- É possível salvar seus personagens favoritos e removelos quando quiser
+- Poderá abrir o perfil de cada personagem para ter mais informações
