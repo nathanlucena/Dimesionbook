@@ -110,7 +110,7 @@ export function Home() {
     return (
       <div className={styles.homePage}>
         <div className={styles.errorDiv}>
-          <Alert variant="danger">ERROR 404: No characters found</Alert>
+          <Alert variant="danger">ERROR 404: No character found</Alert>
         </div>
       </div>
     );
