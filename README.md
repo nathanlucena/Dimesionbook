@@ -2,7 +2,7 @@
 
 Conheça o Dimessionbook um guia contetndo todos os personagens da série Rick and Morty, com o Dimessionbook você poderá dar uma olhada em algumas informações dos seus personagens favoritos.
 
-## Iniciando o projet
+## Iniciando o projeto
 
 O Dimessionbook é um projeto react, logo para ser iniciado é necessário ter o node.js instalado em sua máquina, o Dimessionbook foi criado com o node.js na versão `15.12.0` do node.js então recomendo que a mesma ou uma versão superior.
 
