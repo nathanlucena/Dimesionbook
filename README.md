@@ -4,7 +4,7 @@ Conheça o Dimessionbook um guia contetndo todos os personagens da série Rick a
 
 ## Iniciando o projeto
 
-O Dimessionbook é um projeto react, logo para ser iniciado é necessário ter o node.js instalado em sua máquina, o Dimessionbook foi criado com o node.js na versão `15.12.0` do node.js então recomendo que a mesma ou uma versão superior.
+O Dimessionbook é um projeto react, logo para ser iniciado é necessário ter o node.js instalado em sua máquina, o Dimessionbook foi criado com o node.js na versão `15.12.0` do node.js então recomendo que a mesma ou uma versão superior
 
 [Clique aqui para fazer o download do Node](https://nodejs.org/en/).
 
